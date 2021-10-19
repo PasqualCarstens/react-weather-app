@@ -28,10 +28,6 @@
   margin-bottom: 5px;
 }
 
-.Weather li:first-letter {
-  text-transform: capitalize;
-}
-
 .Weather .temperature {
   color: #212121;
   font-size: 80px;
