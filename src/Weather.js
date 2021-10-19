@@ -41,7 +41,7 @@ export default function Weather() {
         <div className="col-6">
           <div className="clearfix">
             <div className="float-end">
-              <span className="temperature">12</span>
+              <span className="temperature">17</span>
               <span className="unit">°C</span>
             </div>
             <img
