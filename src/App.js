@@ -7,6 +7,7 @@ export default function App() {
       <div className="container">
         <Weather defaultCity="London" />
         <footer>
+          <i class="fab fa-github github-icon"></i>{" "}
           <a
             href="https://github.com/PasqualCarstens/react-weather-app"
             target="_blank"
