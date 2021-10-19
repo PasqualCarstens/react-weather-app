@@ -4,7 +4,7 @@ import "./Weather.css";
 export default function Weather() {
   return (
     <div className="Weather">
-      <form>
+      <form className="mb-3">
         <div className="row">
           <div className="col-9">
             <input
@@ -12,6 +12,7 @@ export default function Weather() {
               placeholder="Enter a city"
               className="form-control"
               autocomplete="off"
+              autoFocus="on"
             />
           </div>
           <div className="col-3">
@@ -40,13 +41,13 @@ export default function Weather() {
         <div className="col-6">
           <div className="clearfix">
             <div className="float-end">
-              <span className="temperature"></span>
-              <span className="unit">12°C</span>
+              <span className="temperature">12</span>
+              <span className="unit">°C</span>
             </div>
             <img
               src="https://ssl.gstatic.com/onebox/weather/48/sunny.png"
               alt="Sunny"
-              className="float-end"
+              className="float-end icon"
             />
           </div>
         </div>
